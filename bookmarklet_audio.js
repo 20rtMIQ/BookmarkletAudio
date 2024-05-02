@@ -2002,7 +2002,7 @@ var FMP4Demuxer = function() {
         u = i.remux(null, t.audioTrack).audioSegment;
         t = null;
         i = null;
-        download(u, n + ".wav")
+        download(u, n + ".m4a")
     },
     domand_print = function(n, t, i, r) {
         document.getElementById(n).innerHTML = n + " ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰çŠ¶æ³:" + i + "/" + t + " è©¦è¡Œå›žæ•°:" + (i + r) + " ã‚¨ãƒ©ãƒ¼å›žæ•°:" + r
